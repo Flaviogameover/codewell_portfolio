@@ -46,7 +46,7 @@ export const Header = () => {
             </nav>
             <div className="mobile-header">
                 <div className="header-group">
-                    <h3 className="prata-family">Johnathan Specter</h3>
+                    <h3 className="prata-family">Flávio Lima</h3>
                 </div>
                 <div className="header-group">
                     <nav id="menu-toggle" className="nav-mobile-header inter-family">
