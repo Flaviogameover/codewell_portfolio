@@ -1,0 +1,22 @@
+.logos {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1180px) {
+    .logo-single {
+        text-align: center;
+        width: 33.33333%;
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-single {
+        text-align: center;
+        width: 50%;
+        padding: 7px;
+    }
+}

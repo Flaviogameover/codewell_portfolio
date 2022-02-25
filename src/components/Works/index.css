@@ -1,0 +1,46 @@
+.works{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.work-single{
+    max-width: 550px;
+}
+
+.work-single h2{
+    font-weight: normal;
+    font-size: 33px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.work-single p{
+    color: #7A7A7A;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1180px) {
+    .works{
+        text-align: center;
+    }
+    
+    .work-single{
+        max-width: 800px;
+        padding: 25px 15px;
+    }
+
+    .work-single img{
+        width: 100%;
+    }
+    
+    .work-single h2{
+        text-align: left;
+    }
+    
+    .work-single p{
+        text-align: left;
+    }
+}

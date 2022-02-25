@@ -1,0 +1,32 @@
+.about{
+    background-color: #2E3038;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-single{
+    max-width: 580px;
+}
+
+.about-single h2{
+    font-size: 33px;
+    font-weight: normal;
+}
+
+.about-single p{
+    color: #ADADAD;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1180px) {
+    .about .container{
+        flex-wrap: wrap;
+    }
+
+    .about-single{
+        padding-bottom: 50px;
+    }
+}
