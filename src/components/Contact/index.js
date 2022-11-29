@@ -10,7 +10,7 @@ export const Contact = () => {
                     you can also me an email and I will get back to you within
                     24-48, hours.
                 </p>
-                <a href="#" className="prata-family">
+                <a href="/" className="prata-family">
                     Get in touch
                 </a>
             </div>

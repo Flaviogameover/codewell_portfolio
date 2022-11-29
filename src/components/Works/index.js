@@ -6,7 +6,7 @@ export const Works = () => {
     return (
         <section className="works">
             <div className="work-single">
-                <img src={work_1} />
+                <img src={work_1} alt="Spense" />
                 <h2 className="prata-family">Spense.com -</h2>
                 <p className="inter-family">
                     Rethinking the way writers get paid, an open-source platform
@@ -16,7 +16,7 @@ export const Works = () => {
                 </p>
             </div>
             <div className="work-single">
-                <img src={work_2} />
+                <img src={work_2} alt="YelpCamp" />
                 <h2 className="prata-family">YelpCamp.com -</h2>
                 <p className="inter-family">
                     Allowing backpack travelers to perfectly plan their trip

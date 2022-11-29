@@ -2,17 +2,15 @@ import "./index.css";
 import { ReactComponent as Menu } from "./Menu.svg";
 
 export const Header = () => {
-
-
-    const handleToggle = () =>{
+    const handleToggle = () => {
         let menu = document.getElementById("menu-toggle");
         console.log(menu.style.display);
-        if(menu.style.display === "none" || menu.style.display !== "flex"){
+        if (menu.style.display === "none" || menu.style.display !== "flex") {
             menu.style.display = "flex";
-        }else{
+        } else {
             menu.style.display = "none";
         }
-    }
+    };
 
     return (
         <header>
@@ -38,7 +36,7 @@ export const Header = () => {
                 </ul>
                 <ul className="header-group">
                     <li>
-                        <a href="#" className="prata-family">
+                        <a href="/" className="prata-family">
                             Get in touch
                         </a>
                     </li>
@@ -49,7 +47,10 @@ export const Header = () => {
                     <h3 className="prata-family">Flávio Lima</h3>
                 </div>
                 <div className="header-group">
-                    <nav id="menu-toggle" className="nav-mobile-header inter-family">
+                    <nav
+                        id="menu-toggle"
+                        className="nav-mobile-header inter-family"
+                    >
                         <ul className="header-group">
                             <li>
                                 <p>Articles</p>
@@ -66,7 +67,7 @@ export const Header = () => {
                         </ul>
                         <ul className="header-group">
                             <li>
-                                <a href="#" className="prata-family">
+                                <a href="/" className="prata-family">
                                     Get in touch
                                 </a>
                             </li>
